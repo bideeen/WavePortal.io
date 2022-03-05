@@ -165,7 +165,7 @@ const App = () => {
         </div>
 
         <div className="bio">
-          I am Abideen and I worked on my first smart contract, so that's pretty cool right? Connect your Ethereum wallet and wave at me!
+          I am Abideen and I worked on my first smart contract, that's pretty cool right? Connect your Ethereum wallet and wave at me!
         </div>
 
         <button className="waveButton" onClick={wave}>
