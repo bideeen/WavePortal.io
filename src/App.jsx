@@ -108,7 +108,7 @@ const App = () => {
         let count = await wavePortalContract.getTotalWaves();
         console.log("Retrieved total wave count...", count.toNumber());
 
-        const waveTxn = await wavePortalContract.wave("this is just a message");
+        const waveTxn = await wavePortalContract.wave("Thanks for waving at me");
         console.log("Mining...", waveTxn.hash);
 
         await waveTxn.wait();
